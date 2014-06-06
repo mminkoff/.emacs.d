@@ -124,18 +124,6 @@
 (require 'handlebars-mode)
 
 
-(add-to-list 'load-path
-	      "/usr/local/share/emacs/site-lisp")
-(require 'magit)
-
-(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/mo-git-blame")
-(autoload 'mo-git-blame-file "mo-git-blame" nil t)
-(autoload 'mo-git-blame-current "mo-git-blame" nil t)
-
-(global-set-key [?\C-c ?g ?c] 'mo-git-blame-current)
-(global-set-key [?\C-c ?g ?f] 'mo-git-blame-file)
-
-
 ;; (require 'autopair)
 ;; (autopair-global-mode) ;; to enable in all buffers
 
