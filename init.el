@@ -187,5 +187,7 @@
 (require 'auto-complete-config)
 (ac-config-default)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(add-to-list 'ac-modes 'coffee-mode)
+(add-to-list 'ac-modes 'scss-mode)
 (global-auto-complete-mode)
 (put 'downcase-region 'disabled nil)
