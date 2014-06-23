@@ -189,5 +189,6 @@
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (add-to-list 'ac-modes 'coffee-mode)
 (add-to-list 'ac-modes 'scss-mode)
+(add-to-list 'ac-modes 'handlebars-mode)
 (global-auto-complete-mode)
 (put 'downcase-region 'disabled nil)
