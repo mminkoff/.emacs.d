@@ -87,7 +87,28 @@
 (add-hook 'coffee-mode-hook
   '(lambda() (coffee-custom))
 )
-(custom-set-variables '(coffee-tab-width 2))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-command "/usr/local/bin/coffee")
+ '(coffee-js-mode (quote Javascript))
+ '(coffee-tab-width 2)
+ '(css-indent-offset 2)
+ '(custom-safe-themes (quote ("27b413061e87e7942c858e351c61915b2c4d88f33f86f5df4cb7e129707f519a" "97d8e9c858500ad5d642691b41e99153677842915b99b6fe39849aee0d47cdd9" "404daa8fce5ddf652e607f55c3fac52b04bc058211e463668d780a4e39c9282a" "47674274ab98da21f4b955a0246fb97bd6abfab9a0bf478373ab67580ceee568" "17927a37ac39f1111b24c392d8f6796610226a2fa90c399819072f654631d8e2" "56c2a22f1ffa3ff79b6d21867e6e3889ba29ffa9a74b4b39ee95bb7e2050a7f5" "e42898fa676fe8dcd5d93f9b02ae2e3fd167137b9c7ed99cd0442febafb1ba4d" "9bb90f5aa884f41c469dfe3c97f8214095b78b18ad89c139698aa88e35ab3a47" "d4dccc5d66eaa8bd06dff1f29b41220cb2db8344f948eacce90d96cdbb0c22d8" default)))
+ '(display-time-mode nil)
+ '(frame-background-mode nil)
+ '(global-linum-mode t)
+ '(inhibit-startup-screen t)
+ '(initial-scratch-message nil)
+ '(js-indent-level 2)
+ '(ns-tool-bar-display-mode (quote both) t)
+ '(ns-tool-bar-size-mode (quote regular) t)
+ '(size-indication-mode t)
+ '(tool-bar-mode nil)
+ '(uniquify-buffer-name-style (quote forward) nil (uniquify))
+ '(visual-line-mode nil t))
 
 (setq whitespace-action '(auto-cleanup)) ;; automatically clean up bad whitespace
 (setq whitespace-style '(trailing space-before-tab indentation empty space-after-tab)) ;; only show bad whitespace
@@ -139,26 +160,7 @@
 
 
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(coffee-command "/usr/local/bin/coffee")
- '(coffee-js-mode (quote Javascript))
- '(css-indent-offset 2)
- '(custom-safe-themes (quote ("27b413061e87e7942c858e351c61915b2c4d88f33f86f5df4cb7e129707f519a" "97d8e9c858500ad5d642691b41e99153677842915b99b6fe39849aee0d47cdd9" "404daa8fce5ddf652e607f55c3fac52b04bc058211e463668d780a4e39c9282a" "47674274ab98da21f4b955a0246fb97bd6abfab9a0bf478373ab67580ceee568" "17927a37ac39f1111b24c392d8f6796610226a2fa90c399819072f654631d8e2" "56c2a22f1ffa3ff79b6d21867e6e3889ba29ffa9a74b4b39ee95bb7e2050a7f5" "e42898fa676fe8dcd5d93f9b02ae2e3fd167137b9c7ed99cd0442febafb1ba4d" "9bb90f5aa884f41c469dfe3c97f8214095b78b18ad89c139698aa88e35ab3a47" "d4dccc5d66eaa8bd06dff1f29b41220cb2db8344f948eacce90d96cdbb0c22d8" default)))
- '(display-time-mode nil)
- '(frame-background-mode nil)
- '(global-linum-mode t)
- '(inhibit-startup-screen t)
- '(initial-scratch-message nil)
- '(js-indent-level 2)
- '(ns-tool-bar-display-mode (quote both) t)
- '(ns-tool-bar-size-mode (quote regular) t)
- '(size-indication-mode t)
- '(tool-bar-mode nil)
- '(visual-line-mode nil t))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -192,3 +194,13 @@
 (add-to-list 'ac-modes 'handlebars-mode)
 (global-auto-complete-mode)
 (put 'downcase-region 'disabled nil)
+
+(require 'uniquify)
+
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+(global-set-key (kbd "C-s") 'isearch-forward-regexp)
+(global-set-key (kbd "C-r") 'isearch-backward-regexp)
+(global-set-key (kbd "C-M-s") 'isearch-forward)
+(global-set-key (kbd "C-M-r") 'isearch-backward)
+
+(setq default-directory (concat (getenv "HOME") "/"))
