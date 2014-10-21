@@ -1,7 +1,7 @@
 (if window-system
       (set-frame-size (selected-frame) 200 54))
 (load-theme 'maxmink t)
-(set-fringe-mode '(1 . 0))
+(when (fboundp 'set-fringe-mode) (eval '(set-fringe-mode '(1 . 0))))
 (show-paren-mode 1)
 
 (setenv "PATH" (concat (getenv "HOME") "/bin:"
