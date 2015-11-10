@@ -5,8 +5,8 @@
 (show-paren-mode 1)
 
 (setenv "PATH" (concat (getenv "HOME") "/bin:"
-		       "/usr/local/bin:"
-		       (getenv "PATH")))
+                       "/usr/local/bin:"
+                       (getenv "PATH")))
 
 (setq exec-path (append exec-path '("/usr/local/bin/")))
 
@@ -15,12 +15,12 @@
   (normal-top-level-add-subdirs-to-load-path))
 
 (when (> emacs-major-version 23)
-	(require 'package)
-	(package-initialize)
-	(add-to-list 'package-archives
-		     '("melpa" . "http://melpa.milkbox.net/packages/")
-		     'APPEND))
-(setq visible-bell t)
+        (require 'package)
+        (package-initialize)
+        (add-to-list 'package-archives
+                     '("melpa" . "http://melpa.milkbox.net/packages/")
+                     'APPEND))
+;; (setq visible-bell t)
 (when (fboundp 'windmove-default-keybindings)
       (windmove-default-keybindings))
 
@@ -34,12 +34,19 @@
   (interactive
    (if mark-active (list (region-beginning) (region-end))
      (list (line-beginning-position)
-	   (line-beginning-position 2)))))
+           (line-beginning-position 2)))))
+
+(defun touch ()
+     "updates mtime on the file for the current buffer"
+     (interactive)
+     (shell-command (concat "touch " (shell-quote-argument (buffer-file-name))))
+     (clear-visited-file-modtime))
+(global-set-key "\C-xt" 'touch)
 
 ;; DASH
 (add-to-list 'load-path "dash-at-point")
 (autoload 'dash-at-point "dash-at-point"
-	  "Search the word at point with Dash." t nil)
+          "Search the word at point with Dash." t nil)
 (global-set-key "\C-cd" 'dash-at-point)
 
 ;; in modes
@@ -71,9 +78,9 @@
 ;; HAML
 (require 'haml-mode)
 (add-hook 'haml-mode-hook
-	     '(lambda ()
-		    (setq indent-tabs-mode nil)
-		    (define-key haml-mode-map "\C-m" 'newline-and-indent)))
+             '(lambda ()
+                    (setq indent-tabs-mode nil)
+                    (define-key haml-mode-map "\C-m" 'newline-and-indent)))
 
 ;; Coffeescript Mode setup
 (add-to-list 'load-path "~/.emacs.d/vendor/coffee-mode")
@@ -96,10 +103,13 @@
  '(coffee-js-mode (quote Javascript))
  '(coffee-tab-width 2)
  '(css-indent-offset 2)
- '(custom-safe-themes (quote ("27b413061e87e7942c858e351c61915b2c4d88f33f86f5df4cb7e129707f519a" "97d8e9c858500ad5d642691b41e99153677842915b99b6fe39849aee0d47cdd9" "404daa8fce5ddf652e607f55c3fac52b04bc058211e463668d780a4e39c9282a" "47674274ab98da21f4b955a0246fb97bd6abfab9a0bf478373ab67580ceee568" "17927a37ac39f1111b24c392d8f6796610226a2fa90c399819072f654631d8e2" "56c2a22f1ffa3ff79b6d21867e6e3889ba29ffa9a74b4b39ee95bb7e2050a7f5" "e42898fa676fe8dcd5d93f9b02ae2e3fd167137b9c7ed99cd0442febafb1ba4d" "9bb90f5aa884f41c469dfe3c97f8214095b78b18ad89c139698aa88e35ab3a47" "d4dccc5d66eaa8bd06dff1f29b41220cb2db8344f948eacce90d96cdbb0c22d8" default)))
+ '(custom-safe-themes
+   (quote
+    ("27b413061e87e7942c858e351c61915b2c4d88f33f86f5df4cb7e129707f519a" "97d8e9c858500ad5d642691b41e99153677842915b99b6fe39849aee0d47cdd9" "404daa8fce5ddf652e607f55c3fac52b04bc058211e463668d780a4e39c9282a" "47674274ab98da21f4b955a0246fb97bd6abfab9a0bf478373ab67580ceee568" "17927a37ac39f1111b24c392d8f6796610226a2fa90c399819072f654631d8e2" "56c2a22f1ffa3ff79b6d21867e6e3889ba29ffa9a74b4b39ee95bb7e2050a7f5" "e42898fa676fe8dcd5d93f9b02ae2e3fd167137b9c7ed99cd0442febafb1ba4d" "9bb90f5aa884f41c469dfe3c97f8214095b78b18ad89c139698aa88e35ab3a47" "d4dccc5d66eaa8bd06dff1f29b41220cb2db8344f948eacce90d96cdbb0c22d8" default)))
  '(display-time-mode nil)
  '(frame-background-mode nil)
  '(global-linum-mode t)
+ '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)
  '(js-indent-level 2)
@@ -166,7 +176,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:inherit nil :stipple nil :background "#f8efd3" :foreground "#2e3436" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "nil" :family "Anonymous Pro")))))
 
 (put 'upcase-region 'disabled nil)
 
@@ -204,3 +214,8 @@
 (global-set-key (kbd "C-M-r") 'isearch-backward)
 
 (setq default-directory (concat (getenv "HOME") "/"))
+
+(add-to-list 'load-path "/path/to/dash-at-point")
+(autoload 'dash-at-point "dash-at-point"
+  "Search the word at point with Dash." t nil)
+(global-set-key "\C-cd" 'dash-at-point)

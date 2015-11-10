@@ -1,0 +1,395 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/max/Sites/ethree-server/spec/models/" . "concerns/")
+ ("/Users/max/Documents/repositories/ember-cli-filepicker/addon/" . "mixins/")
+ ("/Users/max/Documents/repositories/ember-cli-filepicker/" . "addon/")
+ ("/Users/max/Documents/repositories/" . "ember-cli-filepicker/")
+ ("/Users/max/Sites/ethree-server/app/views/devise/" . "shared/")
+ ("/Users/max/Sites/ethree-ember/app/pods/card-field/" . "show/")
+ ("/Users/max/Sites/ethree-ember/app/pods/exp-step/" . "card/")
+ ("/Users/max/Sites/ethree-ember/app/pods/experience-show-map/" . "exp-module-steps/")
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/settings/" . "edit/")
+ ("/Users/max/Sites/ethree-ember/app/pods/settings/" . "index/")
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/components/" . "card-field/")
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/" . "components/")
+ ("/Users/max/Sites/ethree-ember/app/pods/components/" . "card-field-text/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/bundler/gems/active_admin-8c87611980fa/lib/" . "active_admin/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/bundler/gems/active_admin-8c87611980fa/" . "lib/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/bundler/gems/" . "active_admin-8c87611980fa/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/bundler/" . "gems/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/" . "bundler/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/" . "2.1.0/")
+ ("/Users/max/Sites/ethree-server/vendor/bundle/" . "ruby/")
+ ("/Users/max/Sites/ethree-server/vendor/" . "bundle/")
+ ("/Users/max/Sites/ethree-server/spec/requests/api/" . "v1/")
+ ("/Users/max/Sites/ethree-server/spec/requests/" . "api/")
+ ("/Users/max/Sites/ethree-server/spec/fixtures/vcr_cassettes/models/" . "user_media_asset/")
+ ("/Users/max/Sites/ethree-server/spec/fixtures/vcr_cassettes/" . "models/")
+ ("/Users/max/Sites/ethree-server/spec/fixtures/" . "vcr_cassettes/")
+ ("/Users/max/Sites/ethree-server/tmp/" . "ember-rails/")
+ ("/Users/max/Sites/ethree-ember/bower_components/markdown/" . "lib/")
+ ("/Users/max/Sites/ethree-ember/bower_components/" . "markdown/")
+ ("/Users/max/Sites/ethree-ember/node_modules/markdown/" . "lib/")
+ ("/Users/max/Sites/ethree-ember/node_modules/" . "markdown/")
+ ("/Users/max/Sites/ethree-ember/dist/" . "assets/")
+ ("/Users/max/Documents/indybot/" . "scripts/")
+ ("/Users/max/Sites/ethree-ember/app/pods/exp-module/" . "index/")
+ ("/Users/max/Sites/ethree-ember/app/templates/" . "step-templates/")
+ ("/Users/max/Sites/ethree-ember/app/pods/exp-overview-map/" . "exp-module-steps/")
+ ("/Users/max/Sites/ethree-ember/app/pods/experience-overview/" . "index/")
+ ("/Users/max/Sites/ethree-ember/app/pods/exp-attendance/" . "index/")
+ ("/Users/max/Sites/ethree-server/app/assets/javascripts/templates/" . "step_template/")
+ ("/Users/max/Sites/ethree-ember/tests/unit/" . "models/")
+ ("/Users/max/Sites/ethree-ember/app/pods/" . "components/")
+ ("/Users/max/Sites/ethree-server/app/assets/javascripts/" . "models/")
+ ("/Users/max/Sites/ethree-ember/tests/" . "unit/")
+ ("/Users/max/Sites/ethree-ember/app/" . "controllers/")
+ ("/Users/max/Sites/ethree-ember-first/" . "config/")
+ ("/Users/max/Sites/ethree-ember/" . "app/")
+ ("/Users/max/Sites/ethree1/spec/support/" . "fixtures/")
+ ("/Users/max/Sites/ethree1/spec/" . "support/")
+ ("/Users/max/Sites/ethree-server/app/controllers/api/" . "v1/")
+ ("/Users/max/Sites/ethree-server/app/controllers/" . "api/")
+ ("/Users/max/Sites/ethree-server/spec/controllers/api/" . "v1/")
+ ("/Users/max/Sites/ethree-server/spec/controllers/" . "api/")
+ ("/Users/max/Sites/ethree1/app/models/" . "concerns/")
+ ("/Users/max/Sites/ethree-server/spec/" . "controllers/")
+ ("/Users/max/Sites/ethree1/app/assets/javascripts/" . "transitions/")
+ ("/Users/max/Sites/liquid-fire-demo/app/" . "transitions/")
+ ("/Users/max/Sites/liquid-fire-demo/" . "app/")
+ ("/Users/max/Sites/ethree1/app/views/admin/" . "ethree_sessions/")
+ ("/Users/max/Sites/ethree1/app/views/" . "layouts/")
+ ("/Users/max/Sites/ethree1/config/" . "initializers/")
+ ("/Users/max/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/" . "bundler-1.7.7/")
+ ("/Users/max/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/" . "gems/")
+ ("/Users/max/.rbenv/versions/2.1.3/lib/ruby/gems/" . "2.1.0/")
+ ("/Users/max/.rbenv/versions/2.1.3/lib/ruby/" . "gems/")
+ ("/Users/max/.rbenv/versions/2.1.3/lib/" . "ruby/")
+ ("/Users/max/.rbenv/versions/2.1.3/" . "lib/")
+ ("/Users/max/.rbenv/versions/" . "2.1.3/")
+ ("/Users/max/.rbenv/" . "shims/")
+ ("/Users/max/Sites/ethree-server/app/views/" . "home/")
+ ("/Users/max/Sites/ethree-server/lib/" . "tasks/")
+ ("/Users/max/Sites/ethree1/lib/" . "tasks/")
+ ("/Users/max/Sites/ethree1/db/" . "migrate/")
+ ("/Users/max/Sites/ethree-server/app/models/" . "concerns/")
+ ("/Users/max/Sites/ethree-server/config/" . "initializers/")
+ ("/Users/max/Sites/ethree1/app/assets/" . "javascripts/")
+ ("/Users/max/Sites/ethree1/app/" . "models/")
+ ("/Users/max/Sites/ethree-server/app/assets/" . "javascripts/")
+ ("/Users/max/Sites/ethree-server/app/" . "controllers/")
+ ("/Users/max/Sites/ethree-server/db/" . "migrate/")
+ ("/Users/max/Sites/ethree1/" . "config/")
+ ("/Users/max/Sites/ethree-server/" . "spec/")
+ ("/Users/max/Sites/ethree/vendor/bundle/ruby/2.0.0/gems/devise-3.2.4/app/views/devise/" . "sessions/")
+ ("/Users/max/Sites/ethree/vendor/bundle/ruby/2.0.0/gems/devise-3.2.4/app/views/" . "devise/")
+ ("/Users/max/Sites/ethree/vendor/bundle/ruby/2.0.0/gems/devise-3.2.4/app/" . "views/")
+ ("/Users/max/Sites/ShareMySpace/spec/" . "routing/")
+ ("/Users/max/Sites/ShareMySpace/lib/" . "tasks/")
+ ("/Users/max/Sites/ethree/lib/" . "tasks/")
+ ("/Users/max/Sites/ethree/app/models/" . "concerns/")
+ ("/Users/max/Sites/ShareMySpace/config/" . "environments/")
+ ("/Users/max/Sites/ShareMySpace/app/" . "controllers/")
+ ("/Users/max/Sites/ShareMySpace/" . "app/")
+ ("/Users/max/Sites/ethree/config/" . "environments/")
+ ("/Users/max/Sites/ethree/app/views/admin/" . "children/")
+ ("/Users/max/Sites/ethree/app/controllers/api/" . "v1/")
+ ("/Users/max/Sites/ethree/app/controllers/" . "api/")
+ ("/Users/max/Sites/ethree/spec/" . "routing/")
+ ("/Users/max/Documents/eThree/eThreePlayer/" . "eThree Player/")
+ ("/Users/max/Documents/eThree/" . "e3station/")
+ ("/Users/max/Documents/" . "repositories/")
+ ("/Users/max/Sites/ethree/app/views/" . "ethree_sessions/")
+ ("/Users/max/Sites/ethree/app/assets/javascripts/templates/" . "step_template/")
+ ("/Users/max/Sites/ethree/app/assets/javascripts/" . "controllers/")
+ ("/Users/max/Sites/ethree/app/assets/" . "components/")
+ ("/Users/max/Sites/ethree/app/" . "models/")
+ ("/Users/max/Sites/ethree/" . "app/")
+ ("/Users/max/Sites/ethree/db/" . "migrate/")
+ ("/Users/max/Sites/" . "ethree-server/")
+ ("/Users/maxold/" . "Desktop/")
+ ("/Users/max/.config/fish/" . "functions/")
+ ("/Users/Deleted Users/max-new/.config/" . "fish/")
+ ("/Users/Deleted Users/max-new/" . "Desktop/")
+ ("/Users/Deleted Users/" . "max-new/")
+ ("/Users/" . "max/")
+ ("/" . "Users/")
+ ("/Users/max/.config/" . "fish/")
+ ("/Users/max/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/max/Sites/ethree-server/spec/controllers/api/v1/"
+ "/Users/max/Sites/ethree-server/spec/requests/api/v1/"
+ "/Users/max/Sites/ethree-server/spec/serializers/"
+ "/Users/max/.emacs.d/"
+ "/Users/max/Sites/ethree-server/app/controllers/api/v1/"
+ "/Users/max/Sites/ethree-server/app/models/"
+ "/Users/max/Sites/ethree-server/spec/factories/"
+ "/Users/max/Sites/ethree-server/spec/models/"
+ "/Users/max/Sites/ethree-server/"
+ "/Users/max/Sites/ethree-server/app/models/concerns/"
+ "/Users/max/Sites/ethree-server/spec/"
+ "/Users/max/Sites/ethree-server/app/serializers/"
+ "/Users/max/Sites/ethree-server/db/migrate/"
+ "/Users/max/Sites/ethree-server/config/"
+ "/Users/max/Sites/ethree-server/db/"
+ "/Users/max/Sites/ethree-server/app/controllers/"
+ "/Users/max/Sites/ShareMySpace/lib/tasks/"
+ "/Users/max/Sites/ethree-server/app/admin/"
+ "/Users/max/Sites/ethree-server/spec/models/concerns/"
+ "/Users/max/Sites/ethree-server/app/assets/javascripts/models/"
+ "/Users/max/Desktop/"
+ "/Users/max/Sites/ethree-server/spec/concerns/"
+ "/Users/max/Sites/ethree-server/config/initializers/"
+ "/Users/max/Sites/ethree-server/app/views/home/"
+ "/Users/max/Sites/ethree-server/spec/routing/"
+ "/Users/max/Sites/ethree-server/spec/features/"
+ "/Users/max/.config/fish/"
+ "/Users/max/"
+ "/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/gems/active_model_serializers-0.10.0.rc2/lib/active_model/"
+ "/Users/max/Sites/ethree-server/spec/fixtures/vcr_cassettes/models/user_media_asset/"
+ "/Users/max/Documents/repositories/ember-cli-filepicker/addon/mixins/"
+ "/Users/max/.rbenv/shims/"
+ "/Users/max/.oh-my-fish/"
+ "/Users/max/Sites/ethree-server/app/assets/stylesheets/"
+ "/Users/max/Sites/ShareMySpace/app/controllers/"
+ "/Users/max/Sites/ethree-server/app/views/layouts/"
+ "/Users/max/Sites/ethree-server/app/views/devise/sessions/"
+ "/Users/max/Sites/ethree-server/app/views/devise/shared/"
+ "/Users/max/Sites/ethree-server/app/views/devise/passwords/"
+ "/Users/max/Sites/ethree-server/config/environments/"
+ "/Users/max/Sites/ethree-ember/app/pods/components/card-field-text/"
+ "/Users/max/Sites/ethree-ember/app/pods/components/card-field/"
+ "/Users/max/Sites/ethree-ember/app/pods/card-field/show/"
+ "/Users/max/Sites/ethree-ember/app/pods/components/"
+ "/Users/max/Sites/ethree-ember/tests/unit/pods/components/card-field/"
+ "/Users/max/Sites/ethree-ember/tests/factories/"
+ "/Users/max/Sites/ethree-ember/app/pods/exp-step/"
+ "/Users/max/Sites/ethree-ember/tests/acceptance/"
+ "/Users/max/Sites/ethree-ember/tests/unit/pods/exp-step/card/"
+ "/Users/max/Sites/ethree-ember/app/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "invitations_controller_spec.rb"
+ "learner_request_spec.rb"
+ "featured_creation_serializer_spec.rb"
+ "experience_serializer_spec.rb"
+ "init.el"
+ "learners_controller.rb"
+ "learners_controller_spec.rb"
+ "step.rb"
+ "ethree_module.rb"
+ "featured_creations.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/max/Sites/ethree-server/spec/serializers/" (22082 21364 0 0) "user_serializer_spec.rb" "user_media_asset_serializer_spec.rb" "teacher_profile_serializer_spec.rb" "step_serializer_spec.rb" "media_asset_serializer_spec.rb" "learner_serializer_spec.rb" "learner_avatar_serializer_spec.rb~" "learner_avatar_serializer_spec.rb" "invitation_serializer_spec.rb~" "invitation_serializer_spec.rb" "featured_creation_serializer_spec.rb~" "featured_creation_serializer_spec.rb" "experience_serializer_spec.rb" "attendance_serializer_spec.rb~" "attendance_serializer_spec.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/models/" (22082 20748 0 0) "virtual_station_type_spec.rb" "virtual_station_station_spec.rb" "virtual_station_station_role_spec.rb" "virtual_station_spec.rb" "user_spec.rb" "user_profile_spec.rb" "user_media_asset_spec.rb" "teacher_profile_spec.rb" "tag_spec.rb~" "tag_spec.rb" "step_template_spec.rb" "step_template_field_spec.rb" "step_spec.rb" "step_media_asset_spec.rb" "station_spec.rb" "station_role_spec.rb" "rubric_spec.rb" "rubric_category_spec.rb" "project_type_spec.rb~" "project_type_spec.rb" "project_type_element_spec.rb~" "project_type_element_spec.rb" "project_spec.rb~" "project_spec.rb" "project_element_spec.rb~" "project_element_spec.rb" "project_element_card_spec.rb~" "project_element_card_spec.rb" "program_spec.rb~" "program_spec.rb" "program_experience_spec.rb~" "program_experience_spec.rb" "organization_spec.rb~" "organization_spec.rb" "organization_experience_spec.rb~" "organization_experience_spec.rb" "omniauthable_spec.rb" "module_type_spec.rb" "media_asset_spec.rb" "location_spec.rb" "learner_spec.rb" "learner_avatar_spec.rb~" "learner_avatar_spec.rb" "invitation_spec.rb" "header_media_asset_spec.rb~" "header_media_asset_spec.rb" "group_spec.rb" "group_attendance_spec.rb" "file_permission_spec.rb" "file_handle_spec.rb" "featured_creation_spec.rb" "favorite_experience_spec.rb" "experience_tag_spec.rb~" "experience_tag_spec.rb" "experience_spec.rb" "experience_module_spec.rb" "experience_member_spec.rb~" "experience_member_spec.rb" "ethree_session_spec.rb" "ethree_session_experience_spec.rb" "ethree_module_spec.rb" "creation_layout_spec.rb~" "creation_layout_spec.rb" "concerns/" "cloud_media_asset_spec.rb~" "card_type_spec.rb" "card_type_field_spec.rb" "card_type_field_rubric_spec.rb" "card_spec.rb" "card_field_spec.rb" "attended_step_spec.rb" "attended_step_file_spec.rb" "attendance_spec.rb" "asset_spec.rb" "app_spec.rb" ".#ability_spec.rb" "#ability_spec.rb#" "../" "./")
+
+ ("/Users/max/.rbenv/shims/" (22082 16789 0 0) "zeus" "tilt" "thor" "testrb" "sprockets" "scss" "sass-convert" "sass" "ruby" "ri" "rdoc" "rake" "rails" "rackup" "pry" "nokogiri" "listen" "irb" "guard" "gem" "erubis" "erb" "compass" "coderay" "bundler" "bundle" "_guard-core" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/models/" (22082 16344 0 0) "virtual_station_type.rb" "virtual_station_station_role.rb" "virtual_station_station.rb" "virtual_station.rb" "user_profile.rb" "user_media_asset.rb" "user.rb" "track.rb" "teacher_profile.rb" "tag.rb" "step_template_field.rb" "step_template.rb" "step_media_asset.rb" "step.rb" "station_role.rb" "station.rb" "rubric_category.rb" "rubric.rb" "role.rb" "project_type_element.rb" "project_type.rb" "project_element_card.rb" "project_element.rb" "project.rb" "program_experience.rb" "program.rb" "organization_experience.rb" "organization.rb" "module_type.rb" "media_asset.rb" "location.rb" "learner_avatar.rb" "learner.rb" "invitation.rb" "header_media_asset.rb" "group_attendance.rb" "group.rb" "file_permission.rb" "file_handle.rb" "featured_creation.rb" "favorite_experience.rb" "experience_tag.rb" "experience_module.rb" "experience_member.rb" "experience.rb" "ethree_session_experience.rb" "ethree_session.rb" "ethree_module.rb" "delayed_job_reporter.rb" "creation_layout.rb" "concerns/" "card_type_field_rubric.rb" "card_type_field.rb" "card_type.rb" "card_field.rb" "card.rb" "attended_step_file.rb" "attended_step.rb" "attendance.rb" "assets/" "asset.rb" "app.rb" "admin_ability.rb" "ability.rb" ".keep" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/controllers/api/v1/" (22082 14453 0 0) "word_search_controller.rb~" "word_search_controller.rb" "virtual_stations_controller.rb" "users_controller.rb" "user_profiles_controller.rb" "user_media_assets_controller.rb~" "user_media_assets_controller.rb" "tracks_controller.rb" "teacher_profiles_controller.rb" "tags_controller.rb~" "tags_controller.rb" "steps_controller.rb" "step_templates_controller.rb~" "step_templates_controller.rb" "step_media_assets_controller.rb~" "step_media_assets_controller.rb" "rubrics_controller.rb" "rubric_categories_controller.rb" "projects_controller.rb" "project_types_controller.rb" "project_type_elements_controller.rb" "project_elements_controller.rb" "project_element_cards_controller.rb" "programs_controller.rb~" "programs_controller.rb" "program_experiences_controller.rb~" "program_experiences_controller.rb" "organizations_controller.rb~" "organizations_controller.rb" "organization_experiences_controller.rb~" "organization_experiences_controller.rb" "media_assets_controller.rb" "learners_controller.rb" "learner_avatars_controller.rb~" "learner_avatars_controller.rb" "invitations_controller.rb" "header_media_assets_controller.rb~" "header_media_assets_controller.rb" "file_handles_controller.rb" "featured_creations_controller.rb~" "featured_creations_controller.rb" "favorite_experiences_controller.rb~" "favorite_experiences_controller.rb" "experiences_controller.rb" "experience_tags_controller.rb~" "experience_tags_controller.rb" "experience_modules_controller.rb~" "experience_modules_controller.rb" "experience_members_controller.rb~" "experience_members_controller.rb" "ethree_sessions_controller.rb" "ethree_modules_controller.rb" "delayed_jobs_controller.rb~" "delayed_jobs_controller.rb" "creation_layouts_controller.rb" "cards_controller.rb" "card_types_controller.rb" "card_type_fields_controller.rb" "card_type_field_rubrics_controller.rb" "card_fields_controller.rb" "attended_steps_controller.rb" "attended_step_files_controller.rb" "attendances_controller.rb" "apps_controller.rb~" "apps_controller.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/" (22082 5811 0 0) "views/" "utils/" "transitions.coffee" "transitions/" "transforms/" "templates/" "styles/" "services/" "serializers/" "routes/" "router.coffee" "pods/" "models/" "mixins/" "instance-initializers/" "initializers/" "index.html" "helpers/" "controllers/" "authorizers/" "authenticators/" "app.js" "adapters/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/" (22082 5811 0 0) "vocab-word/" "vocab-search-modal/" "video-helper/" "user-identity/" "tweet-layout/" "topic-word/" "topic-search-modal/" "text-block/" "table-value-row/" "table-model-row/" "table-model-index/" "table-model-header/" "step-template-word-list/" "step-template-video/" "step-template-two-column-media/" "step-template-project-viewer/" "step-template-project-editor/" "step-template-mission-summary/" "step-template-join/" "step-template-google-map/" "step-template-full-page-photo/" "step-template-directions-with-youtube/" "step-template-directions-with-media/" "step-template-deliverable/" "step-template-card-editor/" "step-template-camera/" "step-template-buddy-photo/" "step-template-briefing-video/" "step-template-backdrop-photo/" "step-template-app/" "step-list-item/" "sort-button/" "selfie-picker/" "select-findall/" "rubric-show/" "rubric-modal/" "project-viewer-modal/" "project-viewer/" "project-layout-flipbook/" "project-element-shorttext/" "project-element-multi/" "project-element-image/" "project-element/" "project-editor/" "new-item-link/" "media-modal/" "markdown-editor-modal/" "markdown-bar/" "login-form/" "loading-spinner/" "list-item-step/" "list-item-module/" "learner-header-badge/" "learner-avatar/" "items-list/" "image-in-list/" "image-helper/" "help-overlay/" "has-many-association/" "flipbook-page/" "filepicker-modal/" "favorite-button/" "experience-tile-image/" "experience-catalog-item/" "experience-card/" "exp-selector/" "exp-picker-modal/" "demo-interstitial/" "demo-bar/" "confirm-modal/" "color-picker/" "cardpicker-modal/" "cardimagepicker-modal/" "card-layout-tweet/" "card-layout-quote/" "card-layout-photo/" "card-layout-person/" "card-layout-definition/" "card-layout/" "card-in-list/" "card-field-shorttext/" "card-field-rubric/" "card-field-link/" "card-field-image/" "card-field-dummy/" "card-field-blurb/" "card-editor/" "blank-layout/" "avatar-menu/" "avatar-editor/" "attended-step-file/" "array-input/" "admin-step-display/" "../" "./")
+
+ ("/Users/max/" (22080 54879 0 0) "Sites/" "Public/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "Library/" "Google Drive/" "Downloads/" "Documents/" "Desktop/" "Box Sync/" "atom/" "Applications/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".rbenv-old/" ".rbenv/" ".pry_history" ".pgpass" ".oracle_jre_usage/" ".oh-my-fish/" ".nvm/" ".npm/" ".node-gyp/" ".netrc" ".marks/" ".localized" ".local/" ".lesshst" ".hgignore_global" ".heroku/" ".guard_history" ".gitignore_global~" ".gitignore_global" ".gitconfig" ".gem/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".cheat/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".atom/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/" (22082 7697 0 0) "zeus.json~" "zeus.json" "vendor/" "tmp/" "spec/" "README.rdoc" "Rakefile" "public/" "Procfile.dev~" "Procfile.dev" "Procfile" "node_modules/" "media_assets/" "log/" "lib/" "Guardfile~" "Guardfile" "Gemfile.lock" "Gemfile" "fixtures/" "db/" "custom_plan.rb~" "custom_plan.rb" "config.ru" "config/" "bin/" "app/" ".zeus.sock" ".ruby-version~" ".ruby-version" ".ruby-gemset" ".rspec~" ".rspec" ".gitignore" ".git/" ".DS_Store" ".bundle/" ".buildpacks~" ".buildpacks" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/factories/" (22081 2406 0 0) "virtual_stations.rb" "virtual_station_types.rb" "virtual_station_stations.rb" "virtual_station_station_roles.rb" "tracks.rb" "task_templates.rb~" "step_templates.rb~" "step_templates.rb" "step_template_fields.rb~" "step_template_fields.rb" "stations.rb" "station_roles.rb" "module_types.rb" "invitations.rb" "groups.rb" "group_attendances.rb" "file_permissions.rb" "file_handles.rb" "featured_creations.rb" "experiences.rb" "experience_modules.rb" "ethree_session_experiences.rb" "attended_steps.rb" "attended_step_files.rb" "attendances.rb~" "attendances.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/controllers/" (22037 5484 0 0) "sessions_controller_spec.rb~" "sessions_controller_spec.rb" "mailchimp_controller_spec.rb~" "mailchimp_controller_spec.rb" "api/" "admin/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/" (22081 2412 0 0) "support/" "spec_helper.rb" "serializers/" "routing/" "requests/" "rails_helper.rb" "models/" "mailers/" "fixtures/" "features/" "factories.rb~" "factories.rb" "factories/" "controllers/" "concerns/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Desktop/" (22076 64037 0 0) "ysc header.jpg" "WirelessDiagnostics_C02FX2E7DF91_2015-03-28_09.16.03.tar.gz" "too much stuff!/" "tony.png" "text2join.jpg" "screencast 2015-09-07 16-28-09.mp4" "screencast 2015-09-05 17-39-26.mp4" "screencast 2015-09-02 12-47-15.mp4" "screencast 2015-08-23 13-14-12.mp4" "screencast 2015-08-20 17-57-56.mp4" "screencast 2015-08-20 10-25-32.mp4" "screencast 2015-08-11 17-49-53.mp4" "Screen Shot 2015-11-06 at 2.06.03 PM.png" "Screen Shot 2015-10-31 at 9.57.10 AM.png" "Screen Shot 2015-09-09 at 1.26.04 PM.png" "Screen Shot 2015-07-20 at 12.11.04 PM.png" "Screen Shot 2015-07-05 at 12.56.25 AM.png" "Screen Shot 2015-07-05 at 12.56.23 AM.png" "Screen Shot 2015-07-05 at 12.56.22 AM.png" "Screen Shot 2015-07-05 at 12.56.19 AM.png" "Screen Shot 2015-07-05 at 12.56.10 AM.png" "Screen Shot 2015-07-05 at 12.56.09 AM.png" "Screen Shot 2015-07-05 at 12.56.07 AM.png" "Screen Shot 2015-07-05 at 12.56.04 AM.png" "Screen Shot 2015-07-05 at 12.55.53 AM.png" "Screen Shot 2015-06-26 at 8.04.05 AM.png" "sales graph forecast  2015 version 3.numbers" "Robin RH/" "RH2 2nd Aliyah Ch22_4-8.mp3" "RH2 2nd Aliyah Ch22:4-8.m4a" "RH/" "orig_photo392078_5362227.JPG" "Old Firefox Data/" "o1dbrowserplugin.plugin/" "Now we're talking.jpg" "Max M HB Alex.mp3" "Max M HB Alex.aiff" "IMG_2514.jpg" "IMG_2511.jpg" "IMG_2496.jpg" "IMG_2489.JPG" "IMG_2418.jpg" "IMG_2412.jpg" "IMG_2384.jpg" "homo naledi dancing.jpg" "Ethree Media Assets size.numbers" "Erie payment 10-5-15.pdf" "EASYCOINMAGIC.m4v" "Draft Creekside Principles.docx" "Draft Creekside Principles and Examples - MM.docx" "Draft Creekside Policy Bank.docx" "dev db backup 9-22-15" "Dead & Company_extra.pdf" "Dead & Company_208.pdf" "CreekSide Wordle.pdf" "CreekSide Stone Fruit.pxm" "Aviva Schedule Fall 2015.pdf" "Aviva Minkoff Electives Form.pdf" "adjusted produce section.jpg" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/serializers/" (22075 45777 0 0) "virtual_station_type_serializer.rb" "virtual_station_station_serializer.rb" "virtual_station_station_role_serializer.rb" "virtual_station_serializer.rb" "user_serializer.rb~" "user_serializer.rb" "user_profile_serializer.rb" "user_media_asset_serializer.rb~" "user_media_asset_serializer.rb" "track_serializer.rb" "teacher_profile_serializer.rb" "task_serializer.rb" "tag_serializer.rb" "step_template_serializer.rb~" "step_template_serializer.rb" "step_template_field_serializer.rb" "step_serializer.rb" "step_media_asset_serializer.rb" "station_serializer.rb" "station_role_serializer.rb" "rubric_serializer.rb" "rubric_category_serializer.rb" "project_type_serializer.rb" "project_type_element_serializer.rb~" "project_type_element_serializer.rb" "project_serializer.rb~" "project_serializer.rb" "project_element_serializer.rb~" "project_element_serializer.rb" "project_element_card_serializer.rb~" "project_element_card_serializer.rb" "program_serializer.rb~" "program_serializer.rb" "program_experience_serializer.rb~" "program_experience_serializer.rb" "organization_serializer.rb~" "organization_serializer.rb" "organization_experience_serializer.rb~" "organization_experience_serializer.rb" "module_type_serializer.rb" "media_asset_serializer.rb" "learner_serializer.rb" "learner_avatar_serializer.rb~" "learner_avatar_serializer.rb" "invitation_serializer.rb" "header_media_asset_serializer.rb~" "header_media_asset_serializer.rb" "group_serializer.rb" "group_attendance_serializer.rb" "file_permission_serializer.rb" "file_handle_serializer.rb" "featured_creation_serializer.rb" "favorite_experience_serializer.rb" "experience_tag_serializer.rb" "experience_serializer.rb" "experience_module_serializer.rb" "experience_member_serializer.rb~" "experience_member_serializer.rb" "ethree_session_serializer.rb" "ethree_session_experience_serializer.rb" "ethree_module_serializer.rb" "delayed_jobs_serializer.rb~" "delayed_job_reporter_serializer.rb~" "delayed_job_reporter_serializer.rb" "creation_layout_serializer.rb~" "creation_layout_serializer.rb" "card_type_serializer.rb" "card_type_field_serializer.rb" "card_type_field_rubric_serializer.rb~" "card_type_field_rubric_serializer.rb" "card_serializer.rb" "card_field_serializer.rb" "attended_step_serializer.rb" "attended_step_file_serializer.rb" "attendance_serializer.rb" "app_serializer.rb" "../" "./")
+
+ ("/Users/max/.config/fish/" (22075 35833 0 0) "nvm-wrapper/" "functions/" "fishd.109add6aeffc" "fish_history" "config.orig" "config.fish~" "config.fish" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/db/" (22075 32042 0 0) "seeds.rb~" "seeds.rb" "schema.rb" "migrate/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/config/" (22075 32042 0 0) "unicorn.rb" "secrets.yml" "routes.rb" "locales/" "initializers/" "events.rb" "environments/" "environment.rb" "database.yml" "database.example.yml" "compass.rb~" "compass.rb" "boot.rb" "application.yml~" "application.yml" "application.rb" "application.example.yml" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/db/migrate/" (22075 32042 0 0) "20151105121759_create_experience_members.rb~" "20151105121759_create_experience_members.rb" "20151104192145_create_program_experiences.rb" "20151104192058_create_programs.rb" "20151031140155_create_favorite_experiences.rb" "20151017184333_add_slug_color_header_to_tag.rb" "20151007122922_create_organization_experiences.rb" "20151006022807_add_slug_to_organization.rb~" "20151006022807_add_slug_to_organization.rb" "20151002173639_create_header_media_assets.rb" "20151002171108_create_organizations.rb" "20150930162448_add_google_map_step_template.rb~" "20150930162448_add_google_map_step_template.rb" "20150930123947_update_featured_creation_fields_for_has_cloud_media.rb~" "20150930123947_update_featured_creation_fields_for_has_cloud_media.rb" "20150924214426_create_learner_avatars.rb~" "20150924214426_create_learner_avatars.rb" "20150919215831_add_original_container_to_media_asset.rb" "20150919215658_add_original_location_to_media_asset.rb" "20150919203322_rename_media_asset_fields_for_has_cloud_media.rb~" "20150919203322_rename_media_asset_fields_for_has_cloud_media.rb" "20150918183531_add_process_info_to_user_media_asset.rb~" "20150918183531_add_process_info_to_user_media_asset.rb" "20150907034905_add_directions_with_youtube_step_template.rb~" "20150907034905_add_directions_with_youtube_step_template.rb" "20150906050553_add_processed_to_media_asset.rb~" "20150906050553_add_processed_to_media_asset.rb" "20150827163045_add_new_image_fields_to_featured_creation.rb~" "20150827163045_add_new_image_fields_to_featured_creation.rb" "20150818044655_remove_creation_layout_templates.rb~" "20150818044655_remove_creation_layout_templates.rb" "20150806171148_add_sponsorship_fields_to_experience.rb~" "20150806171148_add_sponsorship_fields_to_experience.rb" "20150805183351_add_word_list_step_template.rb~" "20150805183351_add_word_list_step_template.rb" "20150728174110_associate_project_element_user_media_assets.rb~" "20150728174110_associate_project_element_user_media_assets.rb" "20150728163812_add_user_media_asset_reference_to_project_element.rb" "20150727194529_associate_card_field_user_media_assets.rb~" "20150727194529_associate_card_field_user_media_assets.rb" "20150727031550_add_processed_to_user_media_asset.rb" "20150724185928_add_user_media_asset_reference_to_card_field.rb" "20150715140500_add_foreign_key_indexes.rb~" "20150715140500_add_foreign_key_indexes.rb" "20150707170939_create_user_media_assets.rb" "20150703144518_create_experience_tags.rb" "20150702225826_create_tags.rb" "20150629212030_add_share_id_to_project.rb" "20150624140857_add_project_viewer_step_template.rb~" "20150624140857_add_project_viewer_step_template.rb" "20150601141131_convert_card_field_content_to_text.rb~" "20150601141131_convert_card_field_content_to_text.rb" "20150530183446_add_step_to_project.rb" "20150530140148_add_project_type_to_step.rb" "20150530133204_add_project_editor_step_template.rb~" "20150530133204_add_project_editor_step_template.rb" "20150529201200_add_position_to_project_type_element.rb~" "20150529201200_add_position_to_project_type_element.rb" "20150529200251_add_position_to_card_type_element.rb~" "20150528120939_create_project_element_cards.rb" "20150528120902_create_project_elements.rb" "20150528120816_create_projects.rb" "20150528120725_create_project_type_elements.rb" "20150528120601_create_project_types.rb" "20150523174533_add_module_image_to_experience_module.rb" "20150522170113_add_length_limit_to_card_type_field.rb" "20150521150349_add_rubric_to_step.rb" "20150521135811_add_type_to_rubric.rb" "20150506221721_add_default_creation_layout_step_template.rb" "20150506183122_add_default_creation_layout_id_to_card_type.rb" "20150506175649_add_source_reference_url_to_rubric.rb" "20150504181733_add_tweet_creation_layout.rb" "20150504180758_add_creation_layout_id_to_step.rb" "20150504172727_create_creation_layouts.rb" "20150504165004_add_creation_layout_step_template.rb" "20150429193820_add_example_to_card_type_field.rb" "20150428140908_add_direction_to_card_type_field.rb" "20150424143707_create_card_type_field_rubrics.rb" "20150424143520_create_rubrics.rb" "20150424143227_create_rubric_categories.rb" "20150421212408_add_card_type_to_step.rb" "20150421210918_add_card_editor_step_template.rb" "20150421134748_create_card_fields.rb" "20150421134552_create_cards.rb" "20150421030501_drop_card_field_types.rb" "20150421025818_change_card_field_type_to_field_type_in_card_type_field.rb" "20150420212728_create_card_types.rb" "20150420212352_create_card_type_fields.rb" "20150420205110_create_card_field_types.rb" "20150416130123_create_user_profiles.rb" "20150416125556_create_teacher_profiles.rb" "20150405194140_add_avatar_cloud_url_to_learner.rb" "20150318194314_add_width_and_height_fields_to_experience.rb" "20150318185843_add_width_and_height_to_media_asset.rb" "20150318151106_add_publish_status_to_experience.rb" "20150316142625_add_target_grades_to_experience.rb" "20150316140736_add_library_description_to_experience.rb" "20150304210508_add_color_to_learner.rb" "20150302144433_add_user_id_to_learner.rb" "20150122174732_create_step_media_assets.rb" "20150120173010_move_overview_video_to_media_asset_on_experience.rb" "20150115183238_add_encoded_filename_to_media_asset.rb" "20150106203341_add_original_filename_to_media_asset.rb" "20150106202721_adjust_cloud_storage_fields_in_media_assets.rb" "20150105204749_create_media_assets.rb" "20141223135832_add_external_video_to_experience.rb" "20141216213414_add_activities_to_experience.rb" "20141216015647_add_featured_image_to_experience.rb" "20141216011345_remove_finished_module_step_template.rb" "20141215181521_add_new_step_templates.rb" "20141209155749_add_avatar_to_learner.rb" "20141208210857_add_template_name_to_step_template.rb" "20141205211509_change_itunes_id_to_string_in_app.rb" "20141203173809_rename_template_name_in_step_template.rb" "20141203164600_add_provider_to_user.rb" "20141130190633_create_test_attendance_records.rb" "20141130171523_rename_child_id_learner_id_in_multiple.rb" "20141130170946_change_children_counts_to_learns_counts_in_ethree_module.rb" "20141118005212_add_cloud_media_to_experience.rb" "20141112200050_add_media_to_steps.rb" "20141106163256_add_initial_station_roles.rb" "20141106160048_add_initial_virtual_station_types.rb" "20141105182723_add_teaser_text_to_experience.rb" "20141105140347_add_experience_overview_fields_to_experience.rb" "20141031141906_create_featured_creations.rb" "20141031124856_add_people_and_overview_video_to_experience.rb" "20141031122007_remove_experience_from_ethree_session.rb" "20141031121056_convert_session_experiences.rb" "20141030194051_create_ethree_session_experiences.rb" "20141026145145_add_buddy_photo_template.rb" "20141024121855_add_full_page_photo_template.rb" "20141024022641_add_briefing_video_template.rb" "20141021232349_add_first_templates.rb" "20141014160226_convert_step_data.rb" "20140922191859_remove_station_role_id_from_virtual_station_station.rb" "20140922185950_create_virtual_station_station_roles.rb" "20140915145907_create_station_roles.rb" "20140915145829_create_virtual_station_stations.rb" "20140915145717_create_virtual_stations.rb" "20140915145401_create_virtual_station_types.rb" "20140911173711_add_connection_ip_address_to_station.rb" "20140909153652_add_connection_id_to_station.rb" "20140902142406_add_creator_attendance_id_to_attended_step_file.rb" "20140819215311_create_stations.rb" "20140807000803_add_color_to_attendance.rb" "20140721185232_create_invitations.rb" "20140717035142_add_device_registration_to_attendance.rb" "20140715212739_add_children_counts_to_ethree_module.rb" "20140702191054_add_position_to_experience.rb" "20140702113904_rename_task_template_fields_to_step_template_fields.rb" "20140701211007_add_track_id_to_experience.rb" "20140701205125_rename_task_templates_step_templates.rb" "20140701183755_absorb_tasks_into_steps.rb" "20140626184737_add_attachment_background_image_to_experiences.rb" "20140626131029_add_attachment_icon_to_experiences.rb" "20140617192053_add_no_files_to_task.rb" "20140616145501_add_position_to_ethree_module.rb" "20140523182152_add_itunes_id_to_app.rb" "20140523172623_add_app_id_to_task.rb" "20140523151348_create_task_template_fields.rb" "20140523151232_create_task_templates.rb" "20140523151009_create_tasks.rb" "20140521215600_add_track_id_to_ethree_module.rb" "20140521202817_add_attachment_icon_to_tracks.rb" "20140521202735_create_tracks.rb" "20140507164212_add_cloud_urls_to_file_handle.rb" "20140428183350_add_deliverable_to_attended_step_file.rb" "20140428162745_rename_name_file_name_in_file_handle.rb" "20140421213959_add_step_id_to_file_handle.rb" "20140420145519_add_attachment_attachment_to_file_handles.rb" "20140419032114_add_title_to_ethree_session.rb" "20140418042031_add_remember_token_to_attendance.rb" "20140417183659_add_checked_in_at_to_attendance.rb" "20140410044028_remove_file_id_from_attended_step.rb" "20140410041329_create_group_attendances.rb" "20140410035430_change_file_handle_associations.rb" "20140410023930_create_attended_step_files.rb" "20140409182740_create_file_permissions.rb" "20140409174518_create_file_handles.rb" "20140409150150_create_attended_steps.rb" "20140409130738_create_groups.rb" "20140409124938_create_attendances.rb" "20140409002843_add_experience_id_to_ethree_session.rb" "20140408181545_update_step_for_modules.rb" "20140408155523_create_experience_modules.rb" "20140408154325_create_ethree_modules.rb" "20140408145113_create_experiences.rb" "20140408135948_create_module_types.rb" "20140215224203_add_app_icon_to_apps.rb" "20140214010507_add_visible_to_locations.rb" "20140203022936_add_mobile_number_to_users.rb" "20140121194054_add_handle_to_learners.rb" "20140117023554_add_price_to_apps.rb" "20140102202722_create_apps.rb" "20131108161426_add_notes_and_time_to_steps.rb" "20131105201432_add_name_and_description_to_steps.rb" "20131105031015_add_position_to_steps.rb" "20131105025458_create_steps.rb" "20131015164347_add_attachment_attachment_to_assets.rb" "20131015160613_create_assets.rb" "20130920160456_add_columns_to_users.rb" "20130917154148_add_parent_profile_id_to_learners.rb" "20130917143639_create_learners.rb" "20130912150702_add_slug_to_locations.rb" "20130905180333_add_confirmable_to_users.rb" "20130826161047_add_latitude_and_longitude_to_addresses.rb" "20130618210609_create_delayed_jobs.rb" "20130613192045_create_ethree_sessions.rb" "20130613173654_create_locations.rb" "20130517164110_create_addresses.rb" "20130513173325_rolify_create_roles.rb" "20130513173321_add_name_to_users.rb" "20130513173319_devise_create_users.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/models/concerns/" (22075 31983 0 0) "sortable.rb" "project_elements.rb" "omniauthable.rb" "nameable.rb" "has_video_attachment.rb~" "has_video_attachment.rb" "has_cloud_media.rb~" "has_cloud_media.rb" "has_cloud_attachments.rb~" "has_cloud_attachments.rb" ".keep" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/acceptance/" (22074 21812 0 0) "user-settings-test.coffee" "two-column-media-test.coffee" "project-show-test.coffee" "project-creation-test.coffee" "home-page-test.coffee" "flipbook-project-viewer-test.coffee" "experience-show-route-test.coffee" "experience-library-test.coffee" "exp-step-route-test.coffee" "exp-module-route-test.coffee" "demo-mode-test.coffee" "card-creation-test.coffee" "authentication-test.coffee" "attendance-page-test.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/factories/" (22074 21812 0 0) "user.coffee" "user-media-asset.coffee" "tag.coffee" "step.coffee" "step-template.coffee" "step-media-asset.coffee" "rubric.coffee" "project.coffee" "project-type.coffee" "project-type-element.coffee" "project-element.coffee" "project-element-card.coffee" "media-asset.coffee" "learner.coffee" "featured-creation.coffee" "experience.coffee" "experience-tag.coffee" "experience-module.coffee" "ethree-module.coffee" "card.coffee" "card-type.coffee" "card-type-field.coffee" "card-field.coffee" "attendance.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/controllers/" (22074 10989 0 0) "websockets_controller.rb" "updates_controller.rb" "status_controller.rb" "stations_controller.rb" "static_controller.rb" "sessions_controller.rb" "passwords_controller.rb~" "passwords_controller.rb" "mailchimp_controller.rb" "home_controller.rb" "file_handles_controller.rb" "ethree_sessions_controller.rb" "ember_app_controller.rb" "concerns/" "attended_step_files_controller.rb" "attendances_controller.rb" "application_controller.rb" "app_events_controller.rb" "api_controller.rb" "api/" ".DS_Store" "../" "./")
+
+ ("/Users/max/.emacs.d/" (22068 51812 0 0) "vendor/" "maxmink-theme.el" "maxcoffee-theme.el" "init.el" "ido.last~" "ido.last" "elpa/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/controllers/" (22062 33771 0 0) "nearby-attendance.coffee" "buddy.coffee" ".gitkeep" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/" (22066 28973 0 0) "vendor/" "tmp/" "tests/" "testem.json" "README.md" "public/" "package.json" "node_modules/" "ember-cli-build.js" "dist/" "deploy.json~" "config/" "bower_components/" "bower.json" "app/" ".watchmanconfig" ".travis.yml" ".sass-cache/" ".jshintrc" ".gitignore" ".git/" ".env~" ".ember-cli" ".editorconfig" ".DS_Store" ".bowerrc" "../" "./")
+
+ ("/Users/max/Sites/ShareMySpace/lib/tasks/" (21618 14110 0 0) "seed_types.rake" "seed_tooltips.rake" "seed_space_categories.rake" "seed_reserved_words.rake~" "seed_reserved_words.rake" "seed_other_fees.rake" "seed_metrics.rake" "seed_ip_blocking.rake" "seed_data.rake" "search.rake" "initial_seed.rake" "deploy_helpers.rb" "deploy.rake" ".gitkeep" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/controllers/api/v1/" (22061 5644 0 0) "word_search_controller_spec.rb~" "word_search_controller_spec.rb" "users_controller_spec.rb~" "users_controller_spec.rb" "topic_search_controller_spec.rb~" "learners_controller_spec.rb~" "learners_controller_spec.rb" "invitations_controller_spec.rb~" "invitations_controller_spec.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/config/initializers/" (22061 5644 0 0) "wrap_parameters.rb" "wordnik.rb~" "wordnik.rb" "session_store.rb" "mime_types.rb" "media_options.rb" "inflections.rb" "filter_parameter_logging.rb" "devise.rb" "delayed_job.rb" "cookies_serializer.rb" "backtrace_silencers.rb" "assets.rb" "active_model_serializer.rb" "active_admin.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/assets/javascripts/models/" (22037 5341 0 0) "virtual_station_type.js.coffee" "virtual_station_station_role.js.coffee" "virtual_station_station.js.coffee" "virtual_station.js.coffee" "track.js.coffee" "task.js.coffee" "step_template_field.js.coffee" "step_template.js.coffee~" "step_template.js.coffee" "step_media_asset.js.coffee" "step.js.coffee" "station_role.js.coffee" "station.js.coffee" "pollster.js.coffee" "module_type.js.coffee" "media_asset.js.coffee" "learner.js.coffee" "invitation.js.coffee" "group_attendance.js.coffee" "group.js.coffee" "file_permission.js.coffee" "file_handle.js.coffee" "featured_creation.js.coffee" "experience_module.js.coffee" "experience.js.coffee" "ethree_session_experience.js.coffee~" "ethree_session_experience.js.coffee" "ethree_session.js.coffee" "ethree_module.js.coffee~" "ethree_module.js.coffee" "child.js.coffee~" "attended_step_file.js.coffee" "attended_step.js.coffee" "attendance.js.coffee~" "attendance.js.coffee" "app.js.coffee" ".DS_Store" "#ethree_session.js.coffee#" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/assets/javascripts/" (21731 65319 0 0) "views/" "transitions.js.coffee~" "transitions.js.coffee" "transitions/" "test.js" "templates/" "store.js.coffee" "station.js.coffee" "routes/" "router.js.coffee" "player.js.coffee" "models/" "mixins/" "home.coffee" "helpers/" "ethree.js.coffee~" "ethree.js.coffee" "ember.min.js" "ember-touch.js" "controllers/" "checkin.js.coffee" "application.js.coffee" "active_admin.js.coffee" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/assets/" (21722 18702 0 0) "stylesheets/" "javascripts/" "images/" "fonts/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/features/" (22027 62250 0 0) "authentication_spec.rb~" "authentication_spec.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/routing/" (22028 11847 0 0) "regular_routes_spec.rb~" "regular_routes_spec.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/admin/" (22020 24326 0 0) "virtual_station_type.rb" "virtual_station.rb" "user.rb" "track.rb" "tag.rb~" "tag.rb" "step_template.rb" "step.rb" "station_role.rb" "station.rb" "rubric_category.rb~" "rubric_category.rb" "rubric.rb~" "rubric.rb" "role.rb" "project_type.rb~" "project_type.rb" "project.rb~" "project.rb" "module_type.rb" "media_asset.rb" "location.rb" "learner.rb" "group.rb" "file_handle.rb" "experience.rb" "ethree_session.rb" "ethree_module.rb" "creation_layout.rb~" "creation_layout.rb" "card_type.rb" "card.rb~" "card.rb" "app.rb" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/models/concerns/" (22020 24327 0 0) "has_cloud_media_spec.rb~" "has_cloud_media_spec.rb" "has_cloud_media_shared.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/controllers/admin/" (21992 27996 0 0) "users_controller_spec.rb" "admin_modules_controller_spec.rb~" "admin_modules_controller_spec.rb" "admin_experiences_controller_spec.rb~" "admin_experiences_controller_spec.rb" "admin_card_types_controller_spec.rb~" "admin_card_types_controller_spec.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/fixtures/vcr_cassettes/models/user_media_asset/" (22012 30502 0 0) "video.yml" "filepicker.yml" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/concerns/" (22013 48673 0 0) "has_encoded_video_spec.rb~" "has_encoded_video_spec.rb" "has_cloud_media_spec.rb~" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/fixtures/vcr_cassettes/models/" (22010 61082 0 0) "user_media_asset.yml" "user_media_asset/" "step_media_asset/" "step/" "project_element.yml" "project_element/" "media_asset.yml" "media_asset/" "learner/" "featured_creation.yml" "featured_creation/" "experience.yml" "ethree_modules.yml" "cloud_media_asset/" "card_type/" "card_field.yml" "card_field/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/config/" (22001 60932 0 0) "release.js" "environment.js" "deploy.js" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/models/" (22001 60932 0 0) "virtual-station.coffee" "virtual-station-type.coffee" "virtual-station-station.coffee" "virtual-station-station-role.coffee" "user.coffee" "user-profile.coffee" "user-media-asset.coffee" "track.coffee" "teacher-profile.coffee" "task.coffee" "tag.coffee" "step.coffee" "step-template.coffee" "step-template-field.coffee" "step-media-asset.coffee" "station.coffee" "station-role.coffee" "rubric.coffee~" "rubric.coffee" "rubric-category.coffee~" "rubric-category.coffee" "project.coffee" "project-type.coffee" "project-type-element.coffee" "project-element.coffee" "project-element-card.coffee" "pollster.coffee" "module-type.coffee" "media-asset.coffee" "learner.coffee" "invitation.coffee" "group.coffee" "group-attendance.coffee" "file-permission.coffee" "file-handle.coffee" "featured-creation.coffee" "experience.coffee" "experience-tag.coffee" "experience-module.coffee" "ethree_session_experience.coffee" "ethree-session.coffee" "ethree-module.coffee" "creation-layout.coffee" "card.coffee" "card-type.coffee" "card-type-field.coffee" "card-type-field-rubric.coffee~" "card-type-field-rubric.coffee" "card-field.coffee" "attended-step.coffee" "attended-step-file.coffee" "attendance.coffee" "app.coffee" ".gitkeep" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/models/" (22001 45621 0 0) "user-test.coffee" "user-profile-test.coffee" "teacher-profile-test.coffee" "tag-test.coffee" "rubric-test.coffee" "rubric-category-test.coffee" "learner-test.coffee" "experience-test.coffee" "experience-tag-test.coffee" "ethree-module-test.coffee" "creation-layout-test.coffee" "card-type-test.coffee" "card-type-field-test.coffee" "card-type-field-rubric-test.coffee" "card-test.coffee" "card-field-test.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/utils/" (22001 32447 0 0) "uuid-test.js" "math-test.coffee" "logging-test.coffee" "ios-test.coffee" "image-test.coffee" "css-test.coffee" "color-test.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/" (21881 48766 0 0) "views/" "utils/" "routes/" "pods/" "models/" "mixins/" "initializers/" "helpers/" "components/" ".gitkeep" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/" (21962 1825 0 0) "unit/" "test-helper.js" "integration/" "index.html" "helpers/" "fixtures/" "factories/" "acceptance/" ".jshintrc" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/home/" (21972 50716 0 0) "index.html.haml" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/" (21916 2003 0 0) "websockets/" "user_media_assets/" "tags/" "step_media_assets/" "stations/" "rubrics/" "rubric_categories/" "projects/" "project_types/" "project_type_elements/" "project_elements/" "project_element_cards/" "player/" "media_assets/" "mailchimp/" "layouts/" "home/" "file_handles/" "experience_tags/" "ethree_sessions/" "devise/" "deliverables/" "creation_layouts/" "cards/" "card_types/" "card_type_fields/" "card_type_field_rubrics/" "card_fields/" "attendances/" "api/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/initializers/" (21943 64994 0 0) "status.coffee" "global-queues.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/exp-step/" (21937 24023 0 0) "template.hbs" "route.coffee" "loading/" "controller.coffee" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/requests/api/v1/" (21937 13366 0 0) "learner_request_spec.rb~" "learner_request_spec.rb" "api_authentication_spec.rb~" "api_authentication_spec.rb" "../" "./")
+
+ ("/Users/max/.config/" (21629 46936 0 0) "git/" "fish/" "configstore/" "../" "./")
+
+ ("/Users/max/.nvm/" (21888 35876 0 0) "versions/" "nvm.sh" "bin/" "alias/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/node_modules/" (21649 45317 0 0) "markdown/" ".bin/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/gems/active_model_serializers-0.10.0.rc2/lib/active_model/" (21923 51731 0 0) "serializer.rb~" "serializer.rb" "serializer/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/gems/active_model_serializers-0.10.0.rc2/lib/active_model/serializer/" (21918 44813 0 0) "version.rb" "railtie.rb" "fieldset.rb" "configuration.rb" "array_serializer.rb" "adapter.rb" "adapter/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/vendor/bundle/ruby/2.1.0/gems/active_model_serializers-0.10.0.rc2/lib/active_model/serializer/adapter/" (21921 42101 0 0) "null.rb" "json_api.rb" "json_api/" "json.rb~" "json.rb" "json/" "fragment_cache.rb" "flatten_json.rb" ".#json.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/fixtures/vcr_cassettes/" (21841 1920 0 0) "models/" "controllers/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/fixtures/" (21680 22949 0 0) "vcr_cassettes/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/card-editor/" (21907 64462 0 0) "template.hbs~" "template.hbs" "component.coffee~" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/" (21777 46512 0 0) "ShareMySpace/" "planetminkoff/" "pairs/" "npm-debug.log" "node_modules/" "liquid-fire-demo/" "ethree1/" "ethree-server/" "ethree-ember-first/" "ethree-ember/" "ember-ink-filepicker-orig/" "ember-ink-filepicker/" "ember-form-patterns/" "Ember/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/requests/api/" (21751 8871 0 0) "v1/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/requests/" (21751 8868 0 0) "session_checkin_page_spec.rb" "attendance_upload_spec.rb" "attendance_checkin_spec.rb" "api/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/styles/" (21904 57863 0 0) "transitions.scss" "spinner.scss" "screen.scss" "mixins.scss" "fonts.scss" "ethree-ember.scss" "animate_overrides.scss" ".gitkeep" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/avatar-menu/" (21901 48154 0 0) "template.hbs" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/assets/stylesheets/" (21880 27692 0 0) "transitions.css.scss" "station.css.scss" "spinner.css.scss" "screen.css.scss~" "screen.css.scss" "rails.css.scss~" "rails.css.scss" "print.css.scss" "ie.css.scss" "home_index.css.less" "fonts.css.scss" "deliverables.css.less" "bootstrap_and_overrides.css.less" "application.css.scss~" "application.css.scss" "animate_overrides.css.scss" "active_admin.css.scss" "../" "./")
+
+ ("/Users/max/Documents/repositories/ember-cli-filepicker/addon/mixins/" (21897 31881 0 0) "ember-filepicker.js" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/" (21629 9964 0 0) "views/" "serializers/" "models/" "mailers/" "jobs/" "helpers/" "controllers/" "assets/" "admin/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Documents/repositories/ember-cli-filepicker/addon/" (21864 26790 0 0) "mixins/" ".gitkeep" "../" "./")
+
+ ("/Users/max/Documents/repositories/ember-cli-filepicker/" (21881 63071 0 0) "vendor/" "tests/" "testem.json" "README.md" "package.json" "LICENSE.md" "index.js" "config/" "Brocfile.js" "bower.json" "app/" "addon/" ".travis.yml" ".npmignore" ".jshintrc" ".gitignore" ".git/" ".ember-cli" ".editorconfig" ".bowerrc" "../" "./")
+
+ ("/Users/max/Documents/repositories/" (21888 29655 0 0) "ember-cli-swagger-api/" "ember-cli-filepicker/" "demo-app-wip/" "../" "./")
+
+ ("/Users/max/Documents/" (21864 26711 0 0) "solarized/" "repositories/" "kill_connections" "IndyBotOld/" "indybot/" "hubot-scripts/" "Fred Feud.numbers" "fonts/" "Fiddler_data/" "Fiddler.aup" "Fiddler 2015/" "ethree-bot/" "eThree/" "console.log" "Burn Temporary.localized/" "Arduino/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/max/.rbenv/" (21888 52721 0 0) "versions/" "version" "test/" "src/" "shims/" "README.md" "rbenv.d/" "LICENSE" "libexec/" "completions/" "bin/" ".travis.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/max/.oh-my-fish/" (21574 32293 0 0) "tools/" "themes/" "templates/" "README.markdown" "plugins/" "oh-my-fish.fish" "LICENSE" "functions/" "custom/" ".gitignore" ".git/" "../" "./")
+
+ ("~/Sites/ethree-server/spec/" (21864 52736 0 0) "support/" "spec_helper.rb" "serializers/" "routing/" "requests/" "rails_helper.rb" "models/" "mailers/" "fixtures/" "features/" "factories.rb~" "factories.rb" "factories/" "controllers/" "concerns/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/templates/step-templates/" (21864 55061 0 0) "video.hbs" "two-column-media.hbs" "project-editor.hbs" "mission-summary.hbs" "join.hbs" "full-page-photo.hbs" "finished-module.hbs" "directions-with-media.hbs" "deliverable.hbs" "default-creation-layout.hbs" "creation-layout.hbs" "card-editor.hbs~" "card-editor.hbs" "camera.hbs" "buddy-photo.hbs" "briefing-video.hbs" "backdrop-photo.hbs" "app.hbs" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/controllers/api/" (21864 54432 0 0) "v1/" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ShareMySpace/app/controllers/" (21574 37043 0 0) "what_am_i_controller.rb~" "what_am_i_controller.rb" "vanity_controller.rb~" "vanity_controller.rb" "users_controller.rb" "user_search_controller.rb" "user_permissions_controller.rb" "user_info_controller.rb" "usages_controller.rb" "usage_suggestions_controller.rb" "updates_controller.rb~" "updates_controller.rb" "tooltips_controller.rb" "tags_controller.rb" "tag_suggestions_controller.rb" "states_controller.rb" "space_types_controller.rb" "space_requests_controller.rb" "space_metatypes_controller.rb" "space_category_spaces_controller.rb" "space_categories_controller.rb" "sms_payouts_controller.rb" "sessions_controller.rb" "search_logs_controller.rb" "search_controller.rb" "reserved_words_controller.rb" "registrations_controller.rb" "permissions_controller.rb" "payout_accounts_controller.rb" "payment_methods_controller.rb" "other_fees_controller.rb" "other_fee_suggestions_controller.rb" "omniauth_callbacks_controller.rb" "nearbies_controller.rb" "metrics_controller.rb" "metric_suggestions_controller.rb" "metacategories_controller.rb" "messages_controller.rb" "message_threads_controller.rb" "locations_controller.rb" "location_ownerships_controller.rb" "listings_controller.rb" "listing_usages_controller.rb" "listing_tags_controller.rb" "listing_other_fees_controller.rb" "listing_nearbies_controller.rb" "listing_metrics_controller.rb" "listing_images_controller.rb" "listing_events_controller.rb" "listing_categories_controller.rb" "listing_availabilities_controller.rb" "listing_amenities_controller.rb" "listing_accesses_controller.rb" "legal_controller.rb" "landing_pages_controller.rb" "ip_ranges_controller.rb" "ip_countries_controller.rb" "invitations_controller.rb" "inquiry_requests_controller.rb" "home_controller.rb~" "home_controller.rb" "favorite_listings_controller.rb" "errors_controller.rb" "error_controller.rb~" "email_event_notifications_controller.rb" "contact_controller.rb" "cities_controller.rb" "bookings_controller.rb" "attachments_controller.rb" "application_controller.rb" "amenity_suggestions_controller.rb" "amenities_controller.rb" "about_controller.rb" "../" "./")
+
+ ("/Users/max/.atom/" (21758 63820 0 0) "styles.less" "storage/" "snippets.cson" "packages/" "keymap.cson" "init.coffee" "config.cson" "compile-cache/" ".node-gyp/" ".gitignore" ".apm/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/spec/controllers/api/" (21586 37574 0 0) "v1/" "../" "./")
+
+ ("/Users/max/Sites/ShareMySpace/" (21574 37061 0 0) "VERSION" "vendor/" "travis-ci-runner.sh" "tmp.txt~" "tmp.txt" "tmp/" "spec/" "script/" "rerun.txt" "README.rdoc" "README" "Rakefile" "public/" "Procfile.dev" "Procfile" "new_types_metrics_notes.txt" "log/" "local-env-sensitive~" "local-env-sensitive.sample" "local-env-sensitive" "local-env" "libpeerconnection.log" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "features/" "doc/" "db/" "coverage/" "config.ru" "config/" "chromedriver.log" "change_user_id~" "change_user_id" "benchmark_bundle.rb" "app/" ".travis.yml~" ".travis.yml" ".rvmrc" ".ruby-gemset" ".rspec~" ".rspec" ".gitmodules" ".gitignore" ".git/" ".env" ".DS_Store" ".bundle/" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/devise/passwords/" (21840 60846 0 0) "new.html.erb" "edit.html.erb" "create.html.haml~" "create.html.haml" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/layouts/" (21840 61764 0 0) "station.html.haml" "static.html.haml" "player.html.haml" "home.html.haml" "deliverables.html.haml" "application.html.haml" "_station_header_tags.html.haml" "_messages.html.haml" "_header_tags.html.haml" ".DS_Store" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/devise/shared/" (21840 60846 0 0) "_links.html.erb" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/devise/sessions/" (21840 60846 0 0) "new.html.erb" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/card-rubrics/" (21840 56934 0 0) "template.hbs~" "template.hbs" "component.coffee~" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/card-field-rubric/" (21840 56934 0 0) "template.hbs~" "template.hbs" "component.coffee~" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/card-field-text/" (21840 56934 0 0) "template.hbs~" "template.hbs" "component.coffee~" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/app/views/devise/" (21627 14319 0 0) "unlocks/" "shared/" "sessions/" "registrations/" "passwords/" "mailer/" "confirmations/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/filepicker-modal/" (21824 57488 0 0) "template.hbs~" "template.hbs" "component.coffee~" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-server/config/environments/" (21836 55990 0 0) "test.rb" "production.rb" "development.rb" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/card-field/show/" (21822 23199 0 0) "template.hbs~" "template.hbs" "route.coffee" "controller.coffee~" "controller.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/components/card-field/" (21822 22464 0 0) "template.hbs~" "template.hbs" "component.coffee~" "component.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/components/" (21822 22433 0 0) "user-identity/" "login-modal/" "learner-avatar/" "help-overlay/" "filepicker-modal/" "experience-tile-image/" "experience-catalog-item/" "demo-interstitial/" "demo-bar/" "card-rubrics/" "card-field-text/" "card-field-rubric/" "card-editor/" "avatar-menu/" "avatar-editor/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/components/card-field/" (21822 22336 0 0) "component-test.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/exp-step/" (21822 20278 0 0) "route-test.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/exp-step/card/" (21819 61578 0 0) "route-test.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/tests/unit/pods/" (21822 19553 0 0) "sign-in/" "settings/" "learner-header-badge/" "experiences/" "experience-show/" "experience-player/" "exp-step/" "components/" "card-field/" "application/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/card-field/index/" (21822 19489 0 0) "template.hbs" "route.coffee" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/" (21822 19528 0 0) "settings-edit/" "settings/" "loading/" "learner-header-badge/" "experiences/" "experience-show-map/" "experience-show/" "experience-player/" "experience/" "exp-step/" "exp-module/" "exp-attendance/" "components/" "card-field/" "buddy-avatar/" "application/" "../" "./")
+
+ ("/Users/max/Sites/ethree-ember/app/pods/card-field/" (21822 18880 0 0) "template.hbs~" "template.hbs" "show/" "route.coffee" "index/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

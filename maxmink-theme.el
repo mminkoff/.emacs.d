@@ -3,9 +3,9 @@
 
 (custom-theme-set-faces
  'maxmink
- '(default ((t (:family "Monaco" :foundry "apple" :width normal :height 120 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#2e3436" :background "#f8efd3" :stipple nil :inherit nil))))
+ '(default ((t (:family "Fira Mono" :foundry "apple" :width normal :height 120 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#2e3436" :background "#f8efd3" :stipple nil :inherit nil))))
  '(cursor ((t (:background "#204a87"))))
- '(fixed-pitch ((t (:family "Monospace"))))
+ '(fixed-pitch ((t (:family "Fira Mono"))))
  '(variable-pitch ((t (:family "Sans Serif"))))
  '(escape-glyph ((t (:foreground "#a40000"))))
  '(minibuffer-prompt ((t (:weight bold :foreground "#485ffe"))))
